@@ -1,0 +1,43 @@
+.topo{
+  border-radius: 0px;
+  z-index: 99;
+}
+.banner{
+  width: 100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  color: #fff;
+  z-index: -1;
+}
+.img-banner{
+  width: 100%;
+  z-index: -1;
+  height: 50vh;
+}
+.slogan{
+  font-family: cursive;
+  text-align: right;
+  position: absolute;
+  top: 15vh;
+  left: 10vw;
+}
+.text-vaga{
+  position: absolute;
+  top: 35vh;
+  left: 25vw;
+  width: 40vw;
+}
+.btn-search{
+  position: absolute;
+  top: 35vh;
+  left: 65vw;
+  min-width: 10vw;
+}
+body{
+  background-color: #d5e0e0;
+}
+.rodape{
+  position: relative;
+  top: 100vh;
+}
