@@ -6,9 +6,14 @@
   width: 100%;
   position: absolute;
   top:0px;
-  left:0px;
+  left:0px;;
   color: #fff;
   z-index: -1;
+  height: 50vh;
+}
+.conteudo{
+  position:absolute;
+  top: 52vh;
 }
 .img-banner{
   width: 100%;
@@ -37,7 +42,10 @@
 body{
   background-color: #d5e0e0;
 }
+p{
+	text-indent:2em;
+}
 .rodape{
   position: relative;
-  top: 100vh;
+  top: 110vh;
 }
