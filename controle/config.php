@@ -1,4 +1,15 @@
 <?php
+	/*
+		utilizando a estrutura de condicional
+		if, verifique se a nota do aluno é
+		inferior a 7 caso seja altere a cor no
+		boletim para Vermelha caso contrario
+		altere para azul
+		Ao final do boletim apresente a soma
+		das notas do aluno
+	*/
+
+
     $aluno = array();
 	$aluno['nome'] = 'Thiago';
 	$aluno['nome'] = 'Valeska';
