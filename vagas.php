@@ -41,21 +41,9 @@
   </div>
 
 	<div class='container' style='margin-top: 51vh'>
-		<div class='row'>
-			<div class='col-sm-4'>
-				<img src='img/predio.jpg' class='img-responsive'>
-			</div>
-			<div class='col-sm-8'>
-				<h3> Bem vindo ao <b>Vaga</b>Tec o Site de Vagas da Etec</h3>
-				<p align='justify'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in enim nulla. Nam tincidunt blandit leo, et lobortis lectus tincidunt sed. Nam rhoncus sapien eu ipsum mattis maximus. Fusce id ante at ligula commodo condimentum. Morbi ac enim at tellus pretium tempus. Nunc pulvinar, nibh quis vehicula consectetur, velit dui tristique mauris, sit amet euismod mauris nulla a odio. Nam ullamcorper ligula at justo molestie, a efficitur tortor finibus. Vivamus aliquam est at vulputate suscipit. Nulla sem augue, euismod ut ullamcorper hendrerit, vulputate nec lacus.
-					<br />	<br />	
-					Aliquam erat volutpat. Praesent ipsum magna, commodo in consectetur eu, efficitur vitae tortor. Etiam eget consectetur urna, nec euismod libero. Vestibulum posuere leo non lacinia ornare. Cras non neque faucibus, iaculis ligula nec, pharetra dolor. Pellentesque posuere tellus ut fringilla condimentum. Aenean in mattis erat. Aenean consectetur odio sed ligula faucibus, et lobortis elit luctus. Morbi hendrerit sem id nisi cursus, id pulvinar ante fringilla. Aliquam erat volutpat. Sed ut libero eu urna blandit condimentum vitae id turpis. Nulla pellentesque pellentesque ipsum vel venenatis.
-					<br /> <br />		
-					Cras semper sed est in euismod. Proin interdum viverra orci, vel consectetur mi. Sed nec commodo lorem. Mauris eu vestibulum urna. Cras a est fringilla, ultricies eros sed, sodales purus. Curabitur ac pellentesque orci. Maecenas turpis lectus, posuere vel nunc et, tincidunt dapibus tellus. Quisque id ipsum sed diam mattis sodales.
-				</p>
-			</div>
-		</div>
+		<?php
+			include("controle/lista_vagas.php");
+		?>
 	</div>
 
   <div class='rodape'>
